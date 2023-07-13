@@ -13,6 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,7 +24,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "lint": "eslint src --ext .ts,.tsx",
-    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -36,6 +38,34 @@
       "yarn lint",
       "yarn format"
     ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "type-enum": [
+        2,
+        "always",
+        [
+          "feat",
+          "fix",
+          "docs",
+          "chore",
+          "test"
+        ]
+      ],
+      "subject-case": [
+        2,
+        "always",
+        "sentence-case"
+      ],
+      "subject-max-length": [
+        2,
+        "always",
+        100
+      ]
+    }
   },
   "eslintConfig": {
     "extends": [
