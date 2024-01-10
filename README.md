@@ -1,1 +1,1 @@
-#React Js with Typescript Boilrplate
+#React Js with Typescript Boilerplate
