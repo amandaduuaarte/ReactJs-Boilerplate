@@ -99,3 +99,16 @@ Here will be all the files that manage the routes of our application.
 `./services`
 
 Folder responsible for dealing with external services and also calls to APIs.
+
+
+### Which libs I used:
+* Styled-components
+* Axios
+* React-Query
+* Husky
+* CommitLint
+* Storybook
+
+
+## Contribution:
+Contributions are welcome! Feel free to open an issue or submit a pull request for code improvements, new features, or bug fixes.
