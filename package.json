@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-boilrplate",
+  "name": "reactjs-Boilerplate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,7 +28,8 @@
     "build-storybook": "storybook build",
     "lint": "eslint src --ext .ts,.tsx",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "new:Globalcomponent": "plop --plopfile ./constructor/plopfile.js globalComponents"
   },
   "husky": {
     "hooks": {
@@ -90,6 +91,7 @@
     "eslint-plugin-storybook": "^0.6.12",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
+    "plop": "^4.0.1",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.24",
