@@ -40,34 +40,6 @@
       "yarn format"
     ]
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "type-enum": [
-        2,
-        "always",
-        [
-          "feat",
-          "fix",
-          "docs",
-          "chore",
-          "test"
-        ]
-      ],
-      "subject-case": [
-        2,
-        "always",
-        "sentence-case"
-      ],
-      "subject-max-length": [
-        2,
-        "always",
-        100
-      ]
-    }
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -90,8 +62,8 @@
     "@babel/eslint-parser": "^7.22.5",
     "@babel/eslint-plugin": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
-    "@commitlint/cli": "^17.6.6",
-    "@commitlint/config-conventional": "^17.6.6",
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "@storybook/addon-essentials": "^7.0.24",
     "@storybook/addon-interactions": "^7.0.24",
     "@storybook/addon-links": "^7.0.24",
