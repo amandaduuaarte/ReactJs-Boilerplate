@@ -1,5 +1,5 @@
 const { globalComponent } = require('./settings')
 
-module.exports = {
-    globalComponent
-}
+module.exports = function (plop) {
+    plop.setGenerator('globalComponent', globalComponent);
+  };

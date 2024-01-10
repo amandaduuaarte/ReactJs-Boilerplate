@@ -1,8 +1,14 @@
-import { React } from 'react'; import { I{{pascalCase name}}Props } from
-'./interfaces'; import * as S from './styles'; const
+import React from 'react';
+import { I{{pascalCase name}}Props } from'./interfaces';
+import * as S from './styles';
+
+const
 {{pascalCase name}}
-= ({ text }: I{{pascalCase name}}Props) => { return (
+= ({ text }: I{{pascalCase name}}Props) => {
+return (
 <S.Container>
     <h1>{text}</h1>
 </S.Container>
-); }; export default {{pascalCase name}};
+)};
+
+export default {{pascalCase name}};
