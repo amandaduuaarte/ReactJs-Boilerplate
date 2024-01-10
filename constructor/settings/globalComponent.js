@@ -26,7 +26,7 @@ module.exports = {
         {
             path: "../src/components/index.ts",
             template:
-                "export { default as {{pascalCase name}} } from './{{pascalCase name}}';\n",
+                "export * from './{{pascalCase name}}';\n",
             type: "append",
         },
     ],
