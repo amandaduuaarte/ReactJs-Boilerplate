@@ -2,23 +2,23 @@
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="ReactJS">
 </div>
 
-# React Js with Typescript - Boilerplate
+# React Js with Typescript - Boilerplate🃏
 
 This is a React JS template created using typescript and already configured with some great and usual libraries.
 
-### How to run:
+### How to run:🛠
 `npm install`
 `npm start`
 <br />
 `yarn`
 `yarn start`
 
-### How to create a new global component:
+### How to create a new global component:🎯
 `npm run new:globalComponent`
 <br />
 `yarn new:globalComponent`
 
-### Project Structure:
+### Project Structure:⚙
 ```
 src
 |-- assets/
@@ -38,7 +38,7 @@ src
 ...
 ```
 
-###  What are modules and what is their structure?
+###  What are modules and what is their structure?💻
 Modules are independent project features, for example, if you have some feature that is independent of the project you create a module and add all features that need to work. Components that are only used in this module, hooks, styles, and others you can find in this module.
 
 ```
@@ -54,7 +54,7 @@ modules
 ...
 ```
 
-### Tech Guide:
+### Tech Guide:📖
 Folders into `src`
 
 `./assets`
@@ -82,7 +82,7 @@ Here I like to leave all the customizable hooks of the application.
 
 `./pages`
 
-As the name suggests, here will be all the pages of our application.
+As the name suggests, there will be all the pages of our application.
 
 `./styles`
 
@@ -94,14 +94,14 @@ All of our application's useful files, such as a function to format strings, wil
 
 `./routes`
 
-Here will be all the files that manage the routes of our application.
+Here are all the files that manage the routes of our application.
 
 `./services`
 
 Folder responsible for dealing with external services and also calls to APIs.
 
 
-### Which libs I used:
+### Which libs I used:🕹
 * Styled-components
 * Axios
 * React-Query
@@ -109,6 +109,9 @@ Folder responsible for dealing with external services and also calls to APIs.
 * CommitLint
 * Storybook
 
-
-## Contribution:
+### Features: ✏
+* Automated component development and the ability to automate additional procedures.
+* Using PLOP.
+  
+## Contribution:🧠
 Contributions are welcome! Feel free to open an issue or submit a pull request for code improvements, new features, or bug fixes.
